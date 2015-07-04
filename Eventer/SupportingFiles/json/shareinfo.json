@@ -1,0 +1,48 @@
+
+{
+    "ResultCode": 0,
+    "Record": [
+               {
+               "shareId": "1",
+               "Talker": "1",
+               "ActivityId": "1",
+               "shareContent": "这是1分享的活动1",
+               "shareTime": "2015-5-22-01:52"
+               },
+               {
+               "shareId": "2",
+               "Talker": "1",
+               "ActivityId": "2",
+               "shareContent": "这是1分享的一个活动2",
+               "shareTime": "2015-5-22-00:52"
+               },
+               {
+               "shareId": "3",
+               "Talker": "2",
+               "ActivityId": "1",
+               "shareContent": "这是2分享的一个活动1",
+               "shareTime": "2015-5-22-04:52"
+               },
+               {
+               "shareId": "4",
+               "Talker": "2",
+               "ActivityId": "2",
+               "shareContent": "这是2分享的一个活动2",
+               "shareTime": "2015-5-22-05:52"
+               },
+               {
+               "shareId": "5",
+               "Talker": "3",
+               "ActivityId": "1",
+               "shareContent": "这是3分享的一个活动1",
+               "shareTime": "2015-5-22-08:52"
+               },
+               {
+               "shareId": "6",
+               "Talker": "3",
+               "ActivityId": "3",
+               "shareContent": "这是3分享的一个活动3",
+               "shareTime": "2015-5-22-06:52"
+               }
+               ]
+}

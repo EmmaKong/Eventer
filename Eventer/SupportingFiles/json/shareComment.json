@@ -1,0 +1,69 @@
+{
+    "ResultCode": 0,
+    "Record": [
+               {
+               "replyId":"0",
+               "shareId": "1",
+               "reply": "1",
+               "replied": "",
+               "replyContent": "我回答大家",
+               "replyTime": "2015-5-22-08:12"
+               },
+               {
+               "replyId":"1",
+               "shareId": "1",
+               "reply": "2",
+               "replied": "",
+               "replyContent": "1你说的这个活动咋样",
+               "replyTime": "2015-5-22-02:22"
+               },
+               {
+               "replyId":"2",
+               "shareId": "1",
+               "reply": "3",
+               "replied": "2",
+               "replyContent": "带上我一起",
+               "replyTime": "2015-5-22-06:03"
+               },
+               {
+               "replyId":"3",
+               "shareId": "1",
+               "reply": "1",
+               "replied": "2",
+               "replyContent": "这是一个讲座",
+               "replyTime": "2015-5-22-03:52"
+               },
+               {
+               "replyId":"4",
+               "shareId": "1",
+               "reply": "2",
+               "replied": "1",
+               "replyContent": "那我们一起去吧",
+               "replyTime": "2015-5-22-04:22"
+               },
+               {
+               "replyId":"5",
+               "shareId": "2",
+               "reply": "2",
+               "replied": "1",
+               "replyContent": "今天晚上要上课",
+               "replyTime": "2015-5-12-04:22"
+               },
+               {
+               "replyId":"6",
+               "shareId": "3",
+               "reply": "2",
+               "replied": "1",
+               "replyContent": "记得带上课本",
+               "replyTime": "2015-5-12-04:22"
+               },
+               {
+               "replyId":"7",
+               "shareId": "2",
+               "reply": "1",
+               "replied": "",
+               "replyContent": "今天有点不想去了",
+               "replyTime": "2015-5-25-04:22"
+               }
+               ]
+}

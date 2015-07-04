@@ -1,0 +1,96 @@
+{
+    "ResultCode": 0,
+    "Record": [
+               {
+               "CommentId": "1",
+               "DiscussionRoomId": "1",
+               "Floor": "0",
+               "Talker": "皮卡丘",
+               "replied": "",
+               "Type": "vip",
+               "Comment": "我是楼主，今天下午有讲座",
+               "CommentType": "",
+               "Imgpath": "touxiang1.png",
+               "addTime": "2015-06-11 11:31:12",
+               "status": ""
+               },
+               {
+               "CommentId": "2",
+               "DiscussionRoomId": "1",
+               "Floor": "1",
+               "Talker": "妙蛙种子",
+               "replied": "",
+               "Type": "common",
+               "Comment": "你好",
+               "CommentType": "",
+               "Imgpath": "touxiang1.png",
+               "addTime": "2015-06-11 15:31:12",
+               "status": ""
+               },
+               {
+               "CommentId": "3",
+               "DiscussionRoomId": "1",
+               "Floor": "2",
+               "Talker": "杰尼龟",
+               "replied": "",
+               "Type": "common",
+               "Comment": "是的",
+               "CommentType": "",
+               "Imgpath": "touxiang1.png",
+               "addTime": "2015-06-11 13:31:12",
+               "status": ""
+               },
+               {
+               "CommentId": "1",
+               "DiscussionRoomId": "1",
+               "Floor": "3",
+               "Talker": "小火龙",
+               "replied": "",
+               "Type": "common",
+               "Comment": "小明是谁",
+               "CommentType": "",
+               "Imgpath": "touxiang1.png",
+               "addTime": "2015-06-11 17:51:12",
+               "status": ""
+               },
+               {
+               "CommentId": "4",
+               "DiscussionRoomId": "1",
+               "Floor": "0",
+               "Talker": "巴大蝴",
+               "replied": "",
+               "Type": "common",
+               "Comment": "巴大蝴来啦",
+               "CommentType": "",
+               "Imgpath": "touxiang1.png",
+               "addTime": "2015-06-11 07:31:12",
+               "status": ""
+               },
+               {
+               "CommentId": "5",
+               "DiscussionRoomId": "1",
+               "Floor": "0",
+               "Talker": "小火龙",
+               "replied": "",
+               "Type": "common",
+               "Comment": "小火龙的尾巴",
+               "CommentType": "",
+               "Imgpath": "touxiang1.png",
+               "addTime": "2015-06-11 17:30:12",
+               "status": ""
+               },
+               {
+               "CommentId": "6",
+               "DiscussionRoomId": "2",
+               "Floor": "0",
+               "Talker": "喵喵",
+               "replied": "",
+               "Type": "vip",
+               "Comment": "就是这样，喵",
+               "CommentType": "",
+               "Imgpath": "touxiang1.png",
+               "addTime": "2015-06-11 19:31:12",
+               "status": ""
+               }
+               ]
+}

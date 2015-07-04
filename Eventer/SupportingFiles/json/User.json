@@ -1,0 +1,69 @@
+{
+    "ResultCode": 0,
+    "Record": [
+               {
+               "UserId": "1",
+               "ScreenName": "小明",
+               "NickName": "明明",
+               "AvatarIcon": "touxiang1.png",
+               "type": "student",
+               "Identity": "host"
+               },
+               {
+               "UserId": "2",
+               "ScreenName": "小章",
+               "NickName": "章鱼",
+               "AvatarIcon": "touxiang2.png",
+               "type": "student",
+               "Identity": ""
+               },
+               {
+               "UserId": "3",
+               "ScreenName": "小强",
+               "NickName": "强强",
+               "AvatarIcon": "touxiang2.png",
+               "type": "student",
+               "Identity": ""
+               },
+               {
+               "UserId": "4",
+               "ScreenName": "李老师",
+               "NickName": "李老师",
+               "AvatarIcon": "touxiang1.png",
+               "type": "teacher",
+               "Identity": ""
+               },
+               {
+               "UserId": "5",
+               "ScreenName": "李老师",
+               "NickName": "李老师",
+               "AvatarIcon": "touxiang1.png",
+               "type": "teacher",
+               "Identity": ""
+               },
+               {
+               "UserId": "6",
+               "ScreenName": "招财猫",
+               "NickName": "猫咪老师",
+               "AvatarIcon": "touxiang1.png",
+               "type": "teacher",
+               "Identity": "host"
+               },
+               {
+               "UserId": "7",
+               "ScreenName": "唐老鸭",
+               "NickName": "唐老鸭",
+               "AvatarIcon": "touxiang1.png",
+               "type": "teacher",
+               "Identity": ""
+               },
+               {
+               "UserId": "8",
+               "ScreenName": "匹诺曹",
+               "NickName": "匹诺曹",
+               "AvatarIcon": "touxiang1.png",
+               "type": "teacher",
+               "Identity": "host"
+               }
+               ]
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C2055" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="COR-3U-282" customClass="ActivityTimePickerView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="206"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="时间设定" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Sa-sw-L48">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecu-8X-vsn">
+                    <rect key="frame" x="274" y="7" width="37" height="30"/>
+                    <state key="normal" title="Done">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="done:" destination="COR-3U-282" eventType="touchUpInside" id="9dD-VN-SCb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LkO-ES-DFq">
+                    <rect key="frame" x="0.0" y="8" width="58" height="30"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancel:" destination="COR-3U-282" eventType="touchUpInside" id="NpO-3y-RZz"/>
+                    </connections>
+                </button>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1zm-hZ-jum">
+                    <rect key="frame" x="0.0" y="44" width="375" height="162"/>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="1zm-hZ-jum" secondAttribute="trailing" id="2qN-U8-WJK"/>
+                <constraint firstItem="ecu-8X-vsn" firstAttribute="top" secondItem="COR-3U-282" secondAttribute="top" constant="7" id="IGw-xu-7JF"/>
+                <constraint firstAttribute="trailing" secondItem="ecu-8X-vsn" secondAttribute="trailing" constant="64" id="ISp-Wk-sNa"/>
+                <constraint firstItem="1zm-hZ-jum" firstAttribute="leading" secondItem="COR-3U-282" secondAttribute="leading" id="IvE-xq-C1S"/>
+                <constraint firstAttribute="bottom" secondItem="1zm-hZ-jum" secondAttribute="bottom" id="Sz5-DT-3oK"/>
+                <constraint firstItem="1zm-hZ-jum" firstAttribute="top" secondItem="5Sa-sw-L48" secondAttribute="bottom" id="bNL-GZ-t3c"/>
+                <constraint firstItem="1zm-hZ-jum" firstAttribute="top" secondItem="LkO-ES-DFq" secondAttribute="bottom" constant="7" id="e9v-ax-Bdp"/>
+                <constraint firstItem="LkO-ES-DFq" firstAttribute="top" secondItem="COR-3U-282" secondAttribute="top" constant="7" id="kPx-X1-4Z8"/>
+                <constraint firstItem="1zm-hZ-jum" firstAttribute="top" secondItem="ecu-8X-vsn" secondAttribute="bottom" constant="7" id="oEF-0a-bar"/>
+                <constraint firstItem="LkO-ES-DFq" firstAttribute="leading" secondItem="COR-3U-282" secondAttribute="leading" id="z2w-O4-8fK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="timePicker" destination="1zm-hZ-jum" id="bCo-RG-fQ3"/>
+                <outlet property="titleLabel" destination="5Sa-sw-L48" id="Xkd-sX-f3U"/>
+            </connections>
+            <point key="canvasLocation" x="395.5" y="350"/>
+        </view>
+    </objects>
+</document>

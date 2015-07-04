@@ -1,0 +1,89 @@
+{
+    "ResultCode": 0,
+    "Record": [
+               {
+               "CommentId": "1",
+               "DiscussionroomId": "1",
+               "Floor": "0",
+               "Talker": "susan",
+               "parentId": "null",
+               "Type": "original",
+               "Comment": "buhao",
+               "Commenttype": "txt",
+               "Imgpath": "touxiang1.png",
+               "addTime": "2012-12-23-08:22",
+               "status": "1",
+               
+               },
+               {
+               "CommentId": "2",
+               "DiscussionroomId": "1",
+               "Floor": "1",
+               "Talker": "lily",
+               "parentId": "1",
+               "Type": "reply",
+               "Comment": "ni shuo de dui",
+               "Commenttype": "txt",
+               "Imgpath": "touxiang2.png",
+               "addTime": "2012-12-23-09:23",
+               "status": "1",
+               
+               },
+               {
+               "CommentId": "3",
+               "DiscussionroomId": "1",
+               "Floor": "2",
+               "Talker": "john",
+               "parentId": "iOSBook",
+               "Type": "original",
+               "Comment": "fwfrf",
+               "Commenttype": "txt",
+               "Imgpath": "touxiang1.png",
+               "addTime": "2012-12-23",
+               "status": "1",
+               
+               },
+               {
+               "CommentId": "3",
+               "DiscussionroomId": "2",
+               "Floor": "1",
+               "Talker": "susan",
+               "parentId": "null",
+               "Type": "original",
+               "Comment": "wo",
+               "Commenttype": "txt",
+               "Imgpath": "touxiang1.png",
+               "addTime": "2012-12-23-22:21",
+               "status": "1",
+               
+               },
+               {
+               "CommentId": "4",
+               "DiscussionroomId": "2",
+               "Floor": "2",
+               "Talker": "jerry",
+               "parentId": "1",
+               "Type": "reply",
+               "Comment": "n",
+               "Commenttype": "txt",
+               "Imgpath": "touxiang1.png",
+               "addTime": "2012-12-22-07:08",
+               "status": "1",
+               
+               },
+               {
+               "CommentId": "5",
+               "DiscussionroomId": "2",
+               "Floor": "3",
+               "Talker": "tom",
+               "parentId": "3",
+               "Type": "reply",
+               "Comment": "sde",
+               "Commenttype": "txt",
+               "Imgpath": "touxiang1.png",
+               "addTime": "2012-12-23-09:04",
+               "status": "1",
+               
+               }
+               ]
+}

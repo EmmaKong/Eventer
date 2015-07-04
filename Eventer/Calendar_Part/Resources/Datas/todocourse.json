@@ -1,0 +1,22 @@
+ [
+  {
+  "weekDay":"周五",
+  "lessons":"1",
+  "courseCode":"100069",
+  "courseName":"形势与政策",
+  "teacherName":"陈云",
+  "claRoom":"西五301",
+  "lessonsNum":"2",
+  "seWeek":"7-14"
+  },
+  {
+  "weekDay":"周五",
+  "lessons":"3",
+  "courseCode":"100069",
+  "courseName":"线性代数",
+  "teacherName":"里斯",
+  "claRoom":"西十二N301",
+  "lessonsNum":"2",
+  "seWeek":"7-14"
+  }
+]

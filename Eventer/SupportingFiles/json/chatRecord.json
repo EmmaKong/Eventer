@@ -1,0 +1,33 @@
+{
+    "ResultCode": 0,
+    "Record": [
+               {
+               "avatar": "touxiang1.png",
+               "lastmsg": "1",
+               "name": "1",
+               "participantId": "123456",
+               "shareTime": "2015-5-22-08:12",
+               },
+               {
+               "shareId": "2",
+               "ActivityId": "2",
+               "Uid": "2",
+               "shareContent": "asdf",
+               "shareTime": "2015-5-22-21:22",
+               },
+               {
+               "shareId": "3",
+               "ActivityId": "3",
+               "Uid": "3",
+               "shareContent": "null",
+               "shareTime": "2015-5-22-05:03",
+               },
+               {
+               "shareId": "4",
+               "ActivityId": "2",
+               "Uid": "4",
+               "shareContent": "yeye",
+               "shareTime": "2015-5-22-11:52",
+               }
+               ]
+}
